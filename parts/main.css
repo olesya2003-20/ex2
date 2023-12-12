@@ -1,0 +1,187 @@
+.main{
+	padding: 60px 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	
+}
+body{
+	background: #FFEFD5;
+}
+.main-photo{
+	width: auto;
+	max-width: 500px;
+	margin-right: 30px;
+	min-width: 500px;
+}
+
+.main-details-vendor{
+	font-size: 12px;
+	font-weight: 700;
+	opacity: 0.4;
+}
+.main-details-title {
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 66px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.main-details-text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: justify;
+	margin-bottom: 36px;
+}
+
+.main-details-price {
+	background-color:#FFC0CB ;
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+/*.main-details-price:after {
+	content: '';
+	position: absolute;
+	top: -6px;
+	left: 0;
+	height: 6px;
+	width: 100%;
+	background-image: url(..) ;
+	background-repeat: repeat no-repeat;
+}*/
+
+.main-details-price-price {
+	width: 180px;
+	font-size: 34px;
+	line-height: 28px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.main-details-price-price small{
+	display: block;
+	font-size: 14px;
+	line-height: 21px;
+	margin-top: 10px;
+	opacity: 0.4;
+}
+
+
+.main-details-price-action {
+	display: inline-block;
+	
+}
+
+.main-details-price-reviews {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	padding-top: 30px;
+}
+
+
+.main-details-price-reviews-start li{
+	display: inline-block;
+}
+
+.rating-area{
+	background-color: #BC8F8F;
+}
+/*
+.main-detais-price-price
+.main-detais-price-reviews
+.main-detais-price-reviews-stars
+.main-detais-price-reviews-link
+*/
+ul.rating-area {
+	margin: 0;
+	padding: 0;
+}
+
+.rating-area {
+	overflow: hidden;
+	width: au;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+
+.main-details {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.main-details-price-reviews-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	opacity: 0.4;
+	color: #fff;
+}
+
+.main-details-price-reviews-link:hover {
+	text-decoration: none;
+}
+
+.btn {
+
+	display:  inline-block;
+	padding: 10px 20px;
+	background-color: #85BD71;
+	color:  #fff;
+	border:  none;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	transition: background-color 200ms ease-in-out;
+}
+
+button {
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: black;
+}

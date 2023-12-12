@@ -1,0 +1,44 @@
+
+@import:"rezet.css";
+@import "parts/_conteiner.css";
+@import "parts/_footer.css";
+@import "parts/heade1r.css";
+@import "parts/main.css";
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Poppins", serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 100%;
+	overflow-x: hidden;
+	min-width: 280px;
+	
+}
+
+img{
+white-space: 100%;
+width: 900px;
+height: 500px;
+}
+
+a{
+	display: inline-block;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.container{
+	align-items: flex-start;
+	padding: 0;
+}
+
